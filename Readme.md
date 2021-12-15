@@ -3,4 +3,4 @@
 
 **a Gui countdown via tkinter**
 
-**This is an unfinished project that's why i left come code that i have tried commented** 
+**This is an unfinished project , that why i left some code that i have tried commented** 

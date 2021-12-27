@@ -1,6 +1,5 @@
-# Countdown watch 
+# Countdown
+
 ***inspired by blind spot tv show***
 
-**a Gui countdown via tkinter**
-
-**This is an unfinished project , that's why i left some code that i have tried commented** 
+<img align="left" src="https://github.com/astroxiii/countdown-watch/blob/master/cd.png" width="400" alt="abderrahim mokhnache's Dev Card"/>

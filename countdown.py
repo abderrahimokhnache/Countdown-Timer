@@ -41,7 +41,7 @@ def countdown():
         count_lb['text'] = "00:00:00"
         
         H , S , M = 0,0,0 
-
+        #here you can add something to happen when count hit's 0 like an alerting sound
     elif int(S) == 0 :
 
         S = 59
@@ -88,73 +88,5 @@ get_seconds.insert(0,"00:00:00")
 
 
 root.mainloop() 
-
-#     # if int(M) != '00' and int(H) == '00' :
-
-#     #     time = int(M) * 60 + int(S) 
-   
-#     # elif int(H) != '00':
-
-#     #     time = int(H) * 3600  + int(M) * 60 + int(S)
- 
-#     # else :
-
-#     #     time = int(S)
-
-# # get_seconds.bind("<Return>" , set_timer)
-
-# # key , value = range(61) , [i * 60 for i in range(61)]
-
-# # Minutes = dict ( zip (  key  , value  ))
-
-# # print Minutes[59]
-
-# # H1 = range(3601)
-
-# import time , os , sys
-
-# from Fileop import File 
-
-# temp = os.getenv("TMP")
-
-
-# def options (x):
-
-#     if x == 1:
-
-#         timz = time.time()
-
-#         File(Path = temp + 'Operation.txt' , Mode = 'wb' ,Content = str(timz))
-
-#     elif x == 2 :
-
-#         times =File(Path = temp + 'Operation.txt' , Mode ='r')
-
-#         timee = time.time()
-
-#         c =  timee - float(times)
-
-#         n = time.gmtime(c)
-
-#         print "\n " + str(n.tm_hour).zfill(2) , ':', str( n.tm_min).zfill(2) , ':' ,str( n.tm_sec).zfill(2)
-
-    
-# options(1)
-
-# try:
-    
-#     for x in xrange(10000000):
-
-#         os.system("cls")
-
-#         options(2)
-
-#         print '\n STOP [?] CLR+C'
-
-#         time.sleep(1)
-
-# except KeyboardInterrupt as e:
-    
-#     sys.exit()
 
 
